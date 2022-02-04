@@ -8,6 +8,7 @@ export class index extends Component {
         this.state = { name : "Index Pages"  , number : 1};
     }
 
+
     /*
 
     shouldComponentUpdate // เรียกเมื่อ props or state เปลี่ยน
@@ -24,13 +25,13 @@ export class index extends Component {
 
     actionNameSetState = () => {
         //rerender 
-        console.log(`actionNameSetState start !`)
+        //console.log(`actionNameSetState start !`)
         this.setState({name : "Index Screen"})
     }
 
     actionSetNameValue = () =>{
         //no rerender 
-        console.log(`actionSetNameValue start !`)
+        //console.log(`actionSetNameValue start !`)
         // eslint-disable-next-line
         this.state.name = "Index Test Value"
     }
